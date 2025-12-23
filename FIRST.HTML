@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML WEBSITE</title>
+    <style>
+        body{
+            background-color: rgb(210, 213, 218);
+            align-items: center;
+        }
+        h2{
+            color:rgb(198, 32, 107);
+            font-size: 80px;
+            font-style: italic;
+            text-align: center;
+        }
+        h1{
+            font-size: 40px;
+            margin-left: 150px;
+            color: rgb(50, 9, 3)
+        }
+        ul{
+            font-size: 25px;
+            margin-left: 80px;
+        }
+        .image-one{
+            margin-left: 550PX;
+            margin-top: 100px;
+            width: 240px;
+            height: 180PX;
+        }
+        .image-two{
+            margin-top: 2px;
+            margin-left: 200PX;
+            margin-top: 100px;
+            width: 350px;
+            height: 370PX;
+        }
+        h4{
+            margin-left: 100px;
+            font-size: 25px;
+        }
+        hr{
+            border: 1px solid rgb(1, 1, 24);
+        }
+        h5{
+            font-size: 40px;
+            text-align: center;
+            color: rgb(175, 15, 87);
+            font-style:italic;
+        }
+        .text-bg{
+            font-size: 50px;
+            text-align: center;
+            font-style: oblique;
+            color: rgb(84, 9, 24);   
+            background-image: url("TQ.jpg");
+            background-size: cover;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+        }
+        .search-box {
+            width: 350px;
+            padding: 12px;
+            border-radius: 8px;
+            border: 2px solid #c2206b;
+            outline: none;
+            font-size: 16px;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            margin-top: 12px;
+            font-size: 16px;
+            background-color: #c2206b;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            align-items: center;
+        }
+
+        .btn:hover {
+            background-color: #a3195a;
+        }
+        #Definitions {
+            margin-top: 25px;
+            font-size: 16px;
+            color: #000;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            text-align: left;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            align-items: center;
+        }
+
+        code {
+            display: block;
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-top: 8px;
+            border-radius: 6px;
+            font-family: monospace;
+        }
+        .search-container{
+            align-items: center;
+            justify-content: center;
+        }
+        @media(min-width: 600px) and (max-width: 1024px){
+            body{
+                background-color: rgb(155, 173, 201);
+            }
+            .image-one{
+                margin: 0 auto;
+                display: block;
+                width: 200px;
+                height: auto;
+            }
+            h2{
+                font-size: 60px;
+            }
+            h1{
+                font-size: 20px;
+                margin-left: 0 auto;
+            }
+            ul{
+                font-size: 18px;
+                margin-left: 0 auto;
+            }
+            .image-two{
+                width: 250px;
+                height: 280px;
+                margin: 0 auto;
+            }
+            h4{
+                margin-left: 0 auto;
+                font-size: 20px;
+            }
+            h5{
+                font-size: 20px;
+            }
+            .text-bg{
+                font-size: 35pxk;
+            }
+            .search-box{
+                width: 280px;
+                padding: 10px;
+                font-size: 14px;
+            }
+            .btn{
+                font-size: 14px;
+                padding: 10px;
+            }
+            #Definitions{
+                margin-top: 0 auto;
+                font-size: 14px;
+                padding: 18px;
+                width: 320px;
+            }
+            code{
+                padding: 8px;
+                margin-top: 0 auto;
+            }
+        }
+        @media(max-width: 600px){
+            .image-one{
+                margin: 0 auto;
+                display: block;
+                width: 150px;
+                height: auto;
+            }
+            h2{
+                font-size: 40px;
+            }
+            h1{
+                font-size: 16px;
+                margin-left: 0 auto;
+            }
+            ul{
+                font-size: 14px;
+                margin-left: 0 auto;
+            }
+            .image-two{
+                width: 180px;
+                height: 200px;
+                margin: 0 auto;
+            }
+            h4{
+                margin-left: 0 auto;
+                font-size: 20px;
+            }
+            h5{
+                 font-size: 10px;
+            }
+            .text-bg{
+                font-size: 25pxk;
+            }
+            .search-box{
+                width: 220px;
+                padding: 8px;
+                font-size: 12px;
+            }
+            .btn{
+                font-size: 12px;
+                padding: 8px;
+            }
+            #Definitions{
+                margin-top: 0 auto;
+                padding: 16px;
+                font-size: 12px;
+                width: 280px;
+            }
+            code{
+                padding: 6px;
+                margin-top: 0 auto;
+            } 
+        }
+
+    </style>
+</head>
+<body>
+    <img src="MY IMAGE.jpg" class="image-one" alt="image-one">
+    <h2>Hello!</h2>
+    <h2>Welcome to HTML note tutorial.</h2>
+    <h2>Scroll down</h2><br><br><br><br><hr><hr>
+    <h1>What is HTML ?</h1>
+    <ul type="bulet">
+     <li>Stands for "Hypertext markup language".</li>
+     <li>HTML is the code that is used to structure a webpage and its content.</li>
+     <li>The component is used to design the structure of website are called html tag.</li>
+     <li>HTML (HyperText Markup Language) is the foundational, standard markup language for creating and structuring content on the World Wide Web, using tags and elements to define parts like headings, paragraphs, links, and images, forming the essential backbone that browsers interpret to display all web pages, from simple sites to complex applications, making it the universal language of the internet.</li>
+     </ul><hr>
+    <h1>Structure of HTML:</h1>
+    <img src="PRINT.png" class="image-two" alt="image-two"><hr>
+    <h1>Tags of HTML:</h1>
+    <ul type="bulet">
+        <li>Tags are always written inside angel bracket (<>).</li>
+        <li>HTML tags are categorised in two types.</li>
+        <li>These two types of tags are as following:</li><br>
+        <ol type="1">
+            <li>Paired tag</li>
+            <li>Unpaired tag</li>
+        </ol>
+    </ul>
+    <h4>1.Paired tag:</h4>
+    <ul type="bulet">
+        <li>Paired tag he tag which has bois other wise known as container tag.</li>
+        <li>The tag which has both opening tag and closing tag , that tag is known as paired tag/container tag.</li>
+        <li>Opening tag - &lt;tag name&gt;</li>
+        <li>Closing tag - &lt;/tag name&gt;</li>
+        <li>Examples of paired tags:</li>
+        &lt;html&gt;&lt;/html&gt; ,
+        &lt;title&gt;&lt;/title&gt; ,
+        &lt;head&gt;&lt;/head&gt; ,
+        &lt;body&gt;&lt;/body&gt; ,
+        &lt;p&gt;&lt;/p&gt;
+    </ul>
+    <h4>2.Unpaired tag:</h4>
+    <ul type="bulet">
+        <li>Unpaired tag is other wise known as standalone tag.</li>
+        <li>The tag which has no any closing tag only opening tag , that tag is known as unpaired tag/standalone tag.</li>
+        <li>Only opening tag - &lt;tag name&gt;</li>
+        <li>Examples of unpaired tags:</li>
+        &lt;br&gt; ,
+        &lt;hr&gt; ,
+        &lt;vr&gt;
+    </ul><hr>
+    <h1>An example of HTML code:</h1>
+    <ul>
+    &lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+    &lt;title&gt;My First Web Page&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+    &lt;h1&gt;Welcome to My First HTML Page&lt;/h1&gt;<br>
+    &lt;p&gt;This is my first HTML program!&lt;/p&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;
+</ul><hr><hr>
+<h5>Search HTML Tag Definitions in the given search bar.</h5>
+<div class="search-containter">
+<input type="text" id="searchBar" class="search-box" placeholder="Type a tag like: p, h1, img, a, div">
+
+    <button class="btn" onclick="showDefinition()">Search</button>
+    </div>
+
+    <div id="definition"></div><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="text-bg">THANK YOU FOR WATCHING THIS SITE.</div>
+
+    <script>
+        const Definitions = {
+            "p": {
+                "desc": "<p> tag is used for writing paragraphs.",
+                "example": "<p>This is a paragraph.</p>"
+            },
+            "h1": {
+                "desc": "<h1> tag is the largest heading.",
+                "example": "<h1>Heading 1</h1>"
+            },
+             "h2": {
+                "desc": "<h2> tag is the second largest heading.",
+                "example": "<h2>Heading 2</h2>"
+            },
+            "a": {
+                "desc": "<a> tag is used to create hyperlinks.",
+                "example": "<a href='https://example.com'>Visit Example</a>"
+            },
+            "img": {
+                "desc": "<img> tag is used to display images.",
+                "example": "<img src='image.jpg' alt='Image description'>"
+            },
+            "br": {
+                "desc": "<br> tag inserts a line break.",
+                "example": "Line1<br>Line2"
+            },
+            "hr": {
+                "desc": "<hr> tag adds a horizontal line.",
+            "example": "Text above<hr>Text below"
+            },
+            "div": {
+                "desc": "<div> tag defines a division or section.",
+                "example": "<div>This is a div block</div>"
+            },
+            "span": {
+                "desc": "<span> tag is used for inline styling.",
+                "example": "<span style='color:red;'>Red Text</span>"
+            },
+              "ul": {
+                "desc": "<ul> tag creates an unordered list.",
+                "example": "<ul><li>Item 1</li><li>Item 2</li></ul>"
+            },
+            "ol": {
+                "desc": "<ol> tag creates an ordered list.",
+                "example": "<ol><li>First</li><li>Second</li></ol>"
+            },
+            "li": {
+                "desc": "<li> tag defines list items.",
+                "example": "<li>List item</li>"
+            },
+            "table": {
+                "desc": "<table> tag is used to create tables.",
+                "example": "<table><tr><td>Cell</td></tr></table>"
+            },
+            "tr": {
+                "desc": "<tr> tag defines a table row.",
+                "example": "<tr><td>Row cell</td></tr>"
+            },
+            "td": {
+            "desc": "<td> tag defines a table cell.",
+                "example": "<td>Cell content</td>"
+            },
+            "th": {
+                "desc": "<th> tag defines a table header cell.",
+                "example": "<th>Header</th>"
+            },
+            "form": {
+                "desc": "<form> tag is used to create forms.",
+                "example": "<form><input type='text'><button>Submit</button></form>"
+               },
+            "input": {
+                "desc": "<input> tag takes user input.",
+                "example": "<input type='text' placeholder='Enter text'>"
+            },
+            "button": {
+                "desc": "<button> tag is used to make buttons.",
+                "example": "<button>Click Me</button>"
+            }
+        };
+
+        function showDefinition(){
+            const tag = document.getElementById("searchBar").value.toLowerCase().trim();
+            const defDiv = document.getElementById("definition");
+
+            if(tag in Definitions){
+                defDiv.innerHTML = `<strong>Definition:</strong> ${Definitions[tag].desc}
+                                    <strong>Example:</strong>
+                                    <code>${Definitions[tag].example}</code>`;
+            } else {
+                defDiv.innerHTML = "❌ No definition found for this tag!";
+            }
+        }
+         // Optional: Allow Enter key to search
+        document.getElementById("searchBar").addEventListener("keypress", function(e){
+            if(e.key === "Enter"){
+                showDefinition();
+            }
+        });
+
+
+
+    </script>
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
